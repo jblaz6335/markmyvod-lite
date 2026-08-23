@@ -6,6 +6,8 @@ Mark stream highlights while you play, then export a clean CSV or YouTube chapte
 
 Download the latest Windows ZIP from [GitHub Releases](https://github.com/jblaz6335/markmyvod-lite/releases/latest).
 
+Software catalogs and reviewers can use the canonical [PAD feed](markmyvod-lite.xml) for machine-readable release metadata and automatic update checks.
+
 ## Included in Lite
 
 - Global `Ctrl + Shift + M` marker hotkey on Windows
