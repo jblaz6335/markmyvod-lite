@@ -31,6 +31,8 @@ Windows may show an unsigned-app warning because this independent build is not c
 
 The [$5 full version](https://blazalgosystems.itch.io/markmyvod) removes the marker limit and adds JSON, CMX 3600 EDL, and exact local MP4 clip export through FFmpeg.
 
+If Lite saves you time and you do not need the full version, you can optionally [support Blaz Algo Systems on Ko-fi](https://ko-fi.com/C2A325JGKN/).
+
 ## Requirements
 
 - Windows 10 or Windows 11
