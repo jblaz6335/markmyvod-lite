@@ -12,6 +12,16 @@ Download the latest Windows ZIP from [GitHub Releases](https://github.com/jblaz6
 
 Software catalogs and reviewers can use the canonical [PAD feed](markmyvod-lite.xml) for machine-readable release metadata and automatic update checks.
 
+### Package managers
+
+The maintained Chocolatey and WinGet package sources are available under [`packaging`](packaging/). While their community submissions are under preparation, Scoop users can install the verified release directly from this repository:
+
+```powershell
+scoop install https://raw.githubusercontent.com/jblaz6335/markmyvod-lite/main/packaging/scoop/markmyvod-lite.json
+```
+
+The Scoop manifest verifies the same SHA-256 digest published in the release notes and creates a Start menu shortcut named **MarkMyVOD Lite**.
+
 ## Included in Lite
 
 - Global `Ctrl + Shift + M` marker hotkey on Windows

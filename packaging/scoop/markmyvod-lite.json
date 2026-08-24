@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "description": "Local hotkey tool for marking stream highlights and exporting editor-ready timestamps.",
+    "homepage": "https://github.com/jblaz6335/markmyvod-lite",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/jblaz6335/markmyvod-lite/blob/main/LICENSE"
+    },
+    "notes": "Windows may show an unknown-publisher warning because this independent build is not code-signed.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jblaz6335/markmyvod-lite/releases/download/v1.0.0/MarkMyVOD-Lite-1.0-Windows-Final.zip",
+            "hash": "7e904daf0bafeb1d60b08a3d9a93a03a501f9a67b6291feb0dbf054ea2384ea6"
+        }
+    },
+    "extract_dir": "MarkMyVOD Lite 1.0",
+    "shortcuts": [
+        [
+            "MarkMyVODLite.exe",
+            "MarkMyVOD Lite"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jblaz6335/markmyvod-lite"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jblaz6335/markmyvod-lite/releases/download/v$version/MarkMyVOD-Lite-$version-Windows-Final.zip"
+            }
+        }
+    }
+}
