@@ -1,0 +1,16 @@
+VERIFICATION
+
+MarkMyVOD Lite is authored and released by Joshua Hernandez under Blaz Algo Systems.
+The package downloads the vendor release directly from:
+
+https://github.com/jblaz6335/markmyvod-lite/releases/download/v1.0.0/MarkMyVOD-Lite-1.0-Windows-Final.zip
+
+To verify the archive:
+
+1. Download the URL above.
+2. Run `Get-FileHash -Algorithm SHA256 <downloaded-file>` in PowerShell.
+3. Confirm the SHA-256 value is:
+
+7E904DAF0BAFEB1D60B08A3D9A93A03A501F9A67B6291FEB0DBF054EA2384EA6
+
+The digest also appears in the public GitHub release notes.

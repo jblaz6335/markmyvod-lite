@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>markmyvod-lite</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/jblaz6335/markmyvod-lite/tree/main/packaging/chocolatey</packageSourceUrl>
+    <owners>Joshua Hernandez</owners>
+    <title>MarkMyVOD Lite</title>
+    <authors>Joshua Hernandez, Blaz Algo Systems</authors>
+    <projectUrl>https://github.com/jblaz6335/markmyvod-lite</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jblaz6335/markmyvod-lite/main/media/icon-256.png</iconUrl>
+    <copyright>2026 Joshua Hernandez</copyright>
+    <licenseUrl>https://github.com/jblaz6335/markmyvod-lite/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jblaz6335/markmyvod-lite</projectSourceUrl>
+    <docsUrl>https://github.com/jblaz6335/markmyvod-lite#readme</docsUrl>
+    <bugTrackerUrl>https://github.com/jblaz6335/markmyvod-lite/issues</bugTrackerUrl>
+    <tags>markmyvod video editing streamer vod marker timestamp chapters windows portable</tags>
+    <summary>Local Windows hotkey tool for marking stream highlights and exporting editor-ready timestamps.</summary>
+    <description><![CDATA[
+MarkMyVOD Lite is a free, local Windows tool for marking important moments while recording or streaming.
+
+Features:
+
+* Global `Ctrl+Shift+M` marker hotkey
+* Optional notes and editable timestamps
+* Save and reopen sessions locally
+* Export CSV and YouTube chapter timestamps
+* No account, advertising, telemetry, or background network activity
+* Portable application with no installer
+
+The Lite edition supports up to 10 markers per session. The separately available full edition adds unlimited markers, JSON and CMX 3600 EDL export, and exact local MP4 clip export.
+
+The executable is currently unsigned, so Windows SmartScreen may display an unknown-publisher warning.
+]]></description>
+    <releaseNotes>Initial Chocolatey package for MarkMyVOD Lite 1.0.0.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
