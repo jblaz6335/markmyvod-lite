@@ -2,6 +2,8 @@
 
 Mark stream highlights while you play, then export a clean CSV or YouTube chapter list without uploading your footage.
 
+This is the public distribution repository for the Windows application. It contains release metadata, package-manager manifests, and interface media; the application implementation is not published here.
+
 ![MarkMyVOD desktop interface](media/app-screenshot.png)
 
 The screenshot shows the full MarkMyVOD interface. Lite uses the same marker workflow but excludes the paid JSON, EDL, and MP4 clip-export features described below.
